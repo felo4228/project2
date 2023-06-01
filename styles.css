@@ -1,0 +1,198 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+ 
+#bh1 {
+  text-align: center;
+  font-family: monospace ;
+  font-size: 300% ;
+  color: #333;
+}
+
+#bh2 {
+  text-align: center;
+  font-family: monospace ;
+  font-size: 200%;
+  color: #333;
+}
+
+#firstimg{
+  width: 100%;
+}
+
+#header {
+  background-color: ghostwhite;
+  
+}
+
+
+#aboutus {
+  text-align: center;
+  font-family: monospace ;
+  font-size: 250%;
+  color: #333;
+}
+
+.text {
+  font-family: monospace;
+  font-size: 180%;
+}
+
+#contactus {
+  text-align: center;
+  font-family: monospace ;
+  font-size: 250%;
+  color: #333;
+
+}
+
+.google-map {
+     padding-bottom: 50%;
+     position: relative;
+}
+
+.google-map iframe {
+     height: 100%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+}
+
+
+.sours {
+  text-align: center;
+  font-family: monospace ;
+  font-size: 250%;
+  color: #333;
+}
+
+
+.grid-container {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
+@media all and (max-width: 600px){
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media all and (max-width: 400px){
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+.photobot .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 25px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.photobot .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+.team-member {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  text-align: center;
+  font-family: monospace;
+  font-size: 150%;
+}
+
+@media all and (max-width: 600px){
+
+  .team-member {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media all and (max-width: 400px){
+
+  .team-member {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+#titleteam {
+  text-align: center;
+  font-family: monospace ;
+  font-size: 250%;
+  color: #333;
+}
+
+
+
+.caption {
+  padding-top: 20px;
+
+}
+
+#footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 100%;
+  background-color: whitesmoke;
+}
+
+#divfooter {
+  padding-top: 30px;
+}
